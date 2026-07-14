@@ -37,8 +37,8 @@ class Settings(BaseSettings):
     # Document loading / chunking
     # --------------------------------------------------------------- #
     pdf_glob_pattern: str = "*.pdf"
-    chunk_size: int = 500
-    chunk_overlap: int = 100
+    chunk_size: int = 1000
+    chunk_overlap: int = 200
 
     # --------------------------------------------------------------- #
     # Embeddings
