@@ -1,4 +1,12 @@
-python-dotenv
-langchain
-huggingface_hub
-google-genai
+pypdf>=5.1.0
+langchain-community>=0.3.19
+langchain-text-splitters>=0.3.6
+langchain-core>=0.3.34
+langchain-chroma>=0.2.2
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.4.1
+chromadb>=0.6.3
+pydantic>=2.10.6
+pydantic-settings>=2.7.1
+streamlit>=1.41.1
+python-dotenv>=1.0.1
